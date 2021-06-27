@@ -22,5 +22,7 @@ public class DemoMain {
         CharacterEncodingFilter b = run.getBean(CharacterEncodingFilter.class);
         Object encodeFilter = run.getBean("encodeFilter");
         System.out.println((b == encodeFilter) + "kjkkkkkk");
+
+        System.out.println("hello the world!");
     }
 }
